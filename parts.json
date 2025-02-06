@@ -1,25 +1,18 @@
 {"parts": [
     { "folder": "body",
-      "items": ["sleek", "fluffy"],
-      "colorMode": "multiply",
-      "colors": ["FFBD6C", "FFFFFF"],
+      "items": ["body"],
+      "colorMode": "fill",
+      "colors": ["fdf2ec", "ffefe2", "ffe9d4", "fce0c7", "fee1bf", "fcdbc8", "fad8bf", "ffc28c", "edba83", "ffc68f", "ffc180", "d69250", "c28544", "dd8c3b", "c37e3b", "b07031", "85541b", "6a4116", "955c23", "7d440c", "5c3307", "945718", "934b00", "5f3304", "502803", "472500", "351904", "2e1b15"],
       "noneAllowed": false
     },
     { "folder": "ears",
-      "items": ["small", "big"],
-      "colorMode": "manual",
-      "colors": ["FFFFFF", "FFBD6C", "BBDE49"],
-      "noneAllowed": true
-    },
-    { "folder": "tail",
-      "items": ["long", "short"],
+      "items": ["small", "large"],
       "colorMode": "fill",
-      "colors": ["FFFFFF", "FFBD6C"],
-      "noneAllowed": false,
-      "moveable": false
+      "colors": ["fdf2ec", "ffefe2", "ffe9d4", "fce0c7", "fee1bf", "fcdbc8", "fad8bf", "ffc28c", "edba83", "ffc68f", "ffc180", "d69250", "c28544", "dd8c3b", "c37e3b", "b07031", "85541b", "6a4116", "955c23", "7d440c", "5c3307", "945718", "934b00", "5f3304", "502803", "472500", "351904", "2e1b15"],
+      "noneAllowed": false
     },
     { "folder": "accessories",
-      "items": ["bow", "crown"],
+      "items": [],
       "colorMode": null,
       "colors": [],
       "noneAllowed": true
