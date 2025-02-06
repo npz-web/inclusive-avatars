@@ -23,5 +23,11 @@
       "colorMode": null,
       "colors": [],
       "noneAllowed": true
+    },
+    { "folder": "head",
+      "items": ["sharp"],
+      "colorMode": "fill",
+      "colors": ["fdf2ec", "ffefe2", "ffe9d4", "fce0c7"],
+      "noneAllowed": false
     }
 ]}
