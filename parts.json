@@ -26,13 +26,13 @@
     { "folder": "nose",
       "items": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
       "colorMode": "fill",
-      "color": ["000000"],
+      "colors": [],
       "noneAllowed": false
     },
     { "folder": "piercings",
       "items": ["S Studs B", "S Studs L", "S Studs R", "D Studs B", "D Studs L", "D Studs R", "T Studs B", "T Studs L", "T Studs R", "Helix B", "Helix L", "Helix R", "Industrial B", "Industrial L", "Industrial R", "S Hoops B", "S Hoops L", "S Hoops R", "L Hoops B", "L Hoops L", "L Hoops R", "Spikes B", "Spikes L", "Spikes R", "Cross B", "Cross L", "Cross R"],
       "colorMode": "fill",
-      "color": ["000000"],
+      "colors": ["000000"],
       "noneAllowed": true
     }
 ]}
