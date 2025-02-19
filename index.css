@@ -6,7 +6,7 @@
     /* the color of the focus ring */
     --focus-color: #0008ff;
     /* the color/image filepath of the background of the image display area */
-    --image-background-color: hsla(0, 0%, 93.3%, .5);
+    --image-background-color: #f5f0f0;
     --image-background-png: "none";
     /* the color/image filepath of the random button */
     --random-button-color: #9d05f0;
@@ -26,6 +26,8 @@
     /* the image filepath of the logo */
     --logo-png: "none";
     --save-button-color: #008a2e;
+
+    --item-button-size: 88px;
 
 
 
@@ -272,7 +274,6 @@ aside {
     position: relative;
     margin: 0 auto;
     height: 100%;
-    border-style: solid;
 }
 
 .imagemaker_container {
@@ -280,10 +281,8 @@ aside {
     height: 100%;
     display: flex;
     overflow: hidden;
-    background-color: var(--image-background-color, hsla(0, 0%, 93.3%, .5));
-    background-image: var(--image-background-png, none);
-    background-position: center;
-    background-repeat: no-repeat;
+    gap: 10px;
+
 }
 
 .imagemaker_canvas_wrapper {
@@ -291,6 +290,20 @@ aside {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    border: 0;
+}
+
+.imagemaker_canvas_wrapper h2 {
+    color: var(--text-light);
+}
+
+#my-canvas-object {
+    background-color: var(--image-background-color, #fefefe);
+    background-image: var(--image-background-png, none);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: var(--standard-border-radius);
+
 }
 
 .imagemaker_canvas_wrapper h2 {
@@ -454,6 +467,8 @@ aside {
     padding: 0;
     vertical-align: middle;
     cursor: pointer;
+    width: var(--item-button-size);
+    height: var(--item-button-size);
 }
 
 .imagemaker_itemlist div button img {
