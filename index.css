@@ -68,7 +68,7 @@ aside {
     float: none;
     width: auto;
     margin-inline-start: 0;
-    padding: 10px;
+    padding: 0px;
 }
 
 .sr-only {
