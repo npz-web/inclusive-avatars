@@ -14,7 +14,7 @@
     { "folder": "piercings",
       "items": ["S Studs B", "S Studs L", "S Studs R", "D Studs B", "D Studs L", "D Studs R", "T Studs B", "T Studs L", "T Studs R", "Helix B", "Helix L", "Helix R", "Industrial B", "Industrial L", "Industrial R", "S Hoops B", "S Hoops L", "S Hoops R", "L Hoops B", "L Hoops L", "L Hoops R", "Spikes B", "Spikes L", "Spikes R", "Cross B", "Cross L", "Cross R"],
       "colorMode": "fill",
-      "colors": ["000000"],
+      "colors": ["000000", "eaaf42", "908b82"],
       "noneAllowed": true
     },
     { "folder": "head",
@@ -26,7 +26,7 @@
     { "folder": "eyes",
       "items": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
       "colorMode": "fill",
-      "colors": ["000000", "ffffff", "6b301c", "482012", "32150c", "68ccea", "437ebc", "88c468", "599837"],
+      "colors": ["000000", "ffffff", "6b301c", "482012", "68ccea", "437ebc", "88c468", "599837"],
       "noneAllowed": false
     },
     { "folder": "eyebrows",
@@ -42,7 +42,7 @@
       "noneAllowed": false
     },
     { "folder": "mouths",
-      "items": ["1", "1 L", "1 C", "1 CL", "2", "2 L", "2 C", "2 CL", "3", "3 L", "3 C", "3 CL", "4", "4 L", "4 C", "4 CL", "5", "5 L", "5 C", "5 CL", "6", "6 L", "6 C", "6 CL", "7", "7 L", "7 C", "7 CL", "8", "8 L", "8 C", "8 CL", "9", "10", "10 L", "10 C", "10 CL", "11", "11 L", "11 C", "11 CL", "12", "12 L", "12 C", "12 CL", "13", "13 L", "13 C", "13 CL"],
+      "items": ["1", "1 L", "1 C", "1 CL", "2", "2 L", "2 C", "2 CL", "3", "3 L", "3 C", "3 CL", "4", "4 L", "4 C", "4 CL", "5", "5 L", "6", "6 L", "7", "7 L", "8", "8 L", "8 C", "8 CL", "9", "10", "10 L", "11", "11 L", "12", "12 L", "12 C", "12 CL", "13", "13 L", "13 C", "13 CL"],
       "colorMode": "fill",
       "colors": ["000000"],
       "noneAllowed": false
