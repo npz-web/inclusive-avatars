@@ -14,7 +14,7 @@
     { "folder": "hair extra",
       "items": ["Ponytail 1"],
       "colorMode": "fill",
-      "colors": ["fdf2ec", "ffefe2", "ffe9d4", "fce0c7", "fee1bf", "fcdbc8", "fad8bf", "ffc28c", "edba83", "ffc68f", "ffc180", "d69250", "c28544", "dd8c3b", "c37e3b", "b07031", "85541b", "6a4116", "955c23", "7d440c", "5c3307", "945718", "934b00", "5f3304", "502803", "472500", "351904", "2e1b15"],
+      "colors": ["f6f0e0", "fbeac5", "f5d5a1", "e7ba79", "b89f75", "947251", "8b6e61", "66483a", "422c25", "2b1b13", "facfbd", "f8b89f", "e5afcc", "d662a0", "a64a6f", "8c56a4", "644372", "54adf6", "547fac", "3b6088", "a7ef64", "809f68", "48672f", "cb5a53", "a5322b", "933123", "ffc75b", "ffffff", "9f9eb3", "645e6c", "171a16"],
       "noneAllowed": true
     },
     { "folder": "ears",
@@ -44,13 +44,13 @@
     { "folder": "eyebrows",
       "items": ["Eyebrow 1 H", "Eyebrow 1 S", "Eyebrow 1 A", "Eyebrow 1 N", "Eyebrow 1 C", "Eyebrow 2 H", "Eyebrow 2 S", "Eyebrow 2 A", "Eyebrow 2 N", "Eyebrow 2 C", "Eyebrow 3 H", "Eyebrow 3 S", "Eyebrow 3 A", "Eyebrow 3 N", "Eyebrow 3 C", "Eyebrow 4 H", "Eyebrow 4 S", "Eyebrow 4 A", "Eyebrow 4 N", "Eyebrow 4 C"],
       "colorMode": "fill",
-      "colors": ["000000"],
+      "colors": ["f6f0e0", "fbeac5", "f5d5a1", "e7ba79", "b89f75", "947251", "8b6e61", "66483a", "422c25", "2b1b13", "facfbd", "f8b89f", "e5afcc", "d662a0", "a64a6f", "8c56a4", "644372", "54adf6", "547fac", "3b6088", "a7ef64", "809f68", "48672f", "cb5a53", "a5322b", "933123", "ffc75b", "ffffff", "9f9eb3", "645e6c", "171a16"],
       "noneAllowed": true
     },
     { "folder": "hair bangs",
       "items": ["Bangs 1", "Bangs 2", "Bangs 3"],
       "colorMode": "fill",
-      "colors": ["fdf2ec", "ffefe2", "ffe9d4", "fce0c7", "fee1bf", "fcdbc8", "fad8bf", "ffc28c", "edba83", "ffc68f", "ffc180", "d69250", "c28544", "dd8c3b", "c37e3b", "b07031", "85541b", "6a4116", "955c23", "7d440c", "5c3307", "945718", "934b00", "5f3304", "502803", "472500", "351904", "2e1b15"],
+      "colors": ["f6f0e0", "fbeac5", "f5d5a1", "e7ba79", "b89f75", "947251", "8b6e61", "66483a", "422c25", "2b1b13", "facfbd", "f8b89f", "e5afcc", "d662a0", "a64a6f", "8c56a4", "644372", "54adf6", "547fac", "3b6088", "a7ef64", "809f68", "48672f", "cb5a53", "a5322b", "933123", "ffc75b", "ffffff", "9f9eb3", "645e6c", "171a16"],
       "noneAllowed": true
     },
     { "folder": "nose",
