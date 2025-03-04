@@ -3,7 +3,9 @@ import os
 from PIL import Image
 
 with open('parts.json') as parts_json:
-    parts = json.load(parts_json)['parts']
+    allData = json.load(parts_json)
+    parts = allData['parts']
+    colorGroups = allData['colorGroups']
 
 fillColor = (200, 200, 200)
 
@@ -12,6 +14,11 @@ folder_name = input("Enter the folder name containing images: ")
 
 def color_template_all():
     for part in parts:
+        colors = []
+        try:
+            colors = colorGroups[part['colorGroup']]
+        except:
+            colors = part['colors']
         if (part['colorMode'] == "fill" or part['colorMode'] == "multiply"):
             print("Generating images for " + part['folder'] + "...")
             for item in part['items']:
@@ -20,7 +27,7 @@ def color_template_all():
                 fileprefix = "imagemakerAssets/" + part['folder'] +  "/" + item
                 templatesource = fileprefix + ".png"
                 with Image.open(templatesource) as template:
-                    for color in part['colors']:
+                    for color in colors:
                         red = int(color[0:2], 16)
                         green = int(color[2:4], 16)
                         blue = int(color[4:6], 16)
@@ -45,6 +52,12 @@ def color_template_all():
 
 def color_template():
     for part in parts:
+        colors = []
+        try:
+            colors = colorGroups[part['colorGroup']]
+            print('using colorGroup ' + part['colorGroup'])
+        except:
+            colors = part['colors']
         if folder_name == part['folder']:
             if (part['colorMode'] == "fill" or part['colorMode'] == "multiply"):
                 print("Generating images for " + part['folder'] + "...")
@@ -53,7 +66,7 @@ def color_template():
                     fileprefix = "imagemakerAssets/" + part['folder'] +  "/" + item
                     templatesource = fileprefix + ".png"
                     with Image.open(templatesource) as template:
-                        for color in part['colors']:
+                        for color in colors:
                             red = int(color[0:2], 16)
                             green = int(color[2:4], 16)
                             blue = int(color[4:6], 16)
