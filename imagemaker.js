@@ -216,16 +216,26 @@ window.addEventListener(
       let timer = setTimeout(function () {
         loading.style.display = "block";
       }, 500);
+      // create a copy of the parts array that is sorted in the correct layer order
+      const sortedParts = parts
+        .map((part, index) => {
+          return { ...part, originalId: index };
+        })
+        .sort((a, b) => {
+          return a.layerOrder - b.layerOrder;
+        });
+      // iterate through the sorted parts array and render, referencing the original array info
       for (let partId = 0; partId < parts.length; partId++) {
-        clearCanvas(layerCanvases[partId]);
-        if (selectedItemIndex[partId] !== null) {
+        const originalId = sortedParts[partId].originalId;
+        clearCanvas(layerCanvases[originalId]);
+        if (selectedItemIndex[originalId] !== null) {
           await imageFromIndex(
-            partId,
-            selectedItemIndex[partId],
-            selectedColors[partId]
+            originalId,
+            selectedItemIndex[originalId],
+            selectedColors[originalId]
           );
         }
-        workingContext.drawImage(layerCanvases[partId], 0, 0);
+        workingContext.drawImage(layerCanvases[originalId], 0, 0);
       }
       clearCanvas(canvas);
       clearTimeout(timer);
