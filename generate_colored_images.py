@@ -15,6 +15,8 @@ def color_template_all():
         if (part['colorMode'] == "fill" or part['colorMode'] == "multiply"):
             print("Generating images for " + part['folder'] + "...")
             for item in part['items']:
+                print("working on " + part['folder'] + ": " + item)
+
                 fileprefix = "imagemakerAssets/" + part['folder'] +  "/" + item
                 templatesource = fileprefix + ".png"
                 with Image.open(templatesource) as template:
