@@ -28,7 +28,7 @@ window.addEventListener(
     const itemsElements = [];
 
     /* Render layers to this 1st and then canvas so that images render all at 
-       once instead of one layer at a time */
+			 once instead of one layer at a time */
     const workingCanvas = document.createElement("canvas");
     workingCanvas.height = HEIGHT;
     workingCanvas.width = WIDTH;
@@ -44,10 +44,10 @@ window.addEventListener(
     /* 1d array of colors where selectedColors[i] is the color selected for part i */
     let selectedColors = [];
     /* 1d array of indices of items currently selected,
-       where selectedItemIndex[i] is the index of the selected item for of part i*/
+			 where selectedItemIndex[i] is the index of the selected item for of part i*/
     let selectedItemIndex = [];
     /* 1d array of canvases of items currently selected, 
-       where layerCanvases[i] depicts the selected item of part i in the selected color*/
+			 where layerCanvases[i] depicts the selected item of part i in the selected color*/
     const layerCanvases = [];
 
     init();
@@ -226,7 +226,8 @@ window.addEventListener(
       let timer = setTimeout(function () {
         loading.style.display = "block";
       }, 500);
-      // create a copy of the parts array that is sorted in the correct layer order
+
+      // create a copy of the parts array that is sorted in the correct layer order, while maintaining the original index
       const sortedParts = parts
         .map((part, index) => {
           return { ...part, originalId: index };
@@ -434,7 +435,9 @@ window.addEventListener(
     }
 
     /**
-     * Helper function to change the color of the item selected for part[partId] to part[partId].colors[colorId] without triggering a refresh
+     * Helper function to change the color of the an item without triggering a refresh.
+     * This is useful for setting the initial color of a part, or any other scenarios
+     * in which you want to update multiple parts at once, then trigger a single refresh.
      */
     async function setColorQuietly(partId, colorId) {
       selectedColors[partId] = colorId;
@@ -452,6 +455,10 @@ window.addEventListener(
       }
     }
 
+    /**
+     * Helper function to determine if a specific part change should trigger a refresh.
+     * Returns true if the part is selected (not null), or if the part is connected to
+     * a color group. Otherwise returns null */
     function shouldTriggerRender(partId) {
       if (selectedItemIndex[partId] != null) {
         return true;

@@ -14,14 +14,14 @@ The applet won't run correctly unless it's launched from a server. To launch it 
 
 The character creator applet's visual components are comprised of "parts" (ex: "body", "ears", "tail", "accessories"), which have varieties called "items" (ex: the items for ears are "small" and "big"). Each item is represented by a .png image with a transparent background. The applet allows the user to create different characters by layering different item .pngs on top of each other.
 
-Parts are listed in parts.json in the order in which they're rendered: parts near the bottom are visually layered on top of parts near the top. Parts have the following fields:
+Parts are listed in parts.json in the order in which they appear in the editor's UI. Their layer order is set manually with the `"layerOrder"` attribute. The part with the lowest layerOrder is rendered at the bottom of the stack, and the part with the highest layerOrder is rendered at the top.
 
 - `"folder"`: the name of the folder that will contain the part's visual assets
 - `"items"`: the names of the items belonging to the part
 - `"colorMode"`: Can be `"fill"`, `"multiply"`, `"manual"` or `null`. See Step 3 for details.
 - `"colorGroup"`: (Optional) the name of the color group that the part belongs to. When the color of one part in a color group is changed, all other parts in the group will change to the same color. NOTE: you still need to manually specify a list of `colors` for each part, and this list must be the same for each part in the group for it to function correctly.
 - `"layerOrder"`: The order in which a part is rendered. Parts with lower layerOrder are rendered below parts with higher layerOrder.
-- `"colors"`: 6-character strings containing the the hexcodes of colors.
+- `"colors"`: 6-character strings containing the the hexcodes of colors. This can be omitted IF the part has the `colorGroup` attribute
 - `"noneAllowed"`: `true` if this part is optional, false otherwise
 
 Ex:
@@ -30,9 +30,49 @@ Ex:
 { "folder": "ears",
       "items": ["small", "big"],
       "colorMode": "manual",
+      "layerOrder": 10,
       "colors": ["FFFFFF", "FFBD6C", "BBDE49"],
       "noneAllowed": true
     }
+```
+
+OR
+
+```
+{ "folder": "ears",
+      "items": ["small", "big"],
+      "colorMode": "manual",
+      "layerOrder": 10,
+      "colorGroup": "skin",
+      "noneAllowed": true
+    }
+```
+
+#### Color Groups
+
+This feature allows you to group parts together so that when the color of one part in the group is changed, all other parts in the group will change to the same color. To use this feature, you must specify a `colorGroup` attribute for each part in the group. The `colors` attribute can be omitted for each part in the group. You must also set up a list of hex codes in the `colorGroups` object in `parts.json`. Each key in the object is the name of a color group, and each value is a list of hex codes.
+
+Ex:
+
+```json
+{
+  "colorGroups": {
+    "hair": [
+      "f6f0e0",
+      "fbeac5",
+      "f5d5a1",
+      "e7ba79",
+      "b89f75",
+      "947251"],
+    "skin": [
+      "f6f0e0",
+      "fbeac5",
+      "f5d5a1",
+      "e7ba79",
+      "b89f75",
+      "947251"]
+      },
+  "parts": [ ...
 ```
 
 ### Step 3: create visual assets
