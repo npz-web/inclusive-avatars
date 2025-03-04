@@ -54,6 +54,7 @@
         "Body-Wide-L"
       ],
       "colorMode": "fill",
+      "colorGroup": "skin",
       "colors": [
         "fdf2ec",
         "ffefe2",
@@ -131,6 +132,8 @@
       "folder": "ears",
       "items": ["Ears-S", "Ears-S-G", "Ears-L", "Ears-L-G"],
       "colorMode": "fill",
+      "colorGroup": "skin",
+
       "colors": [
         "fdf2ec",
         "ffefe2",
@@ -198,6 +201,8 @@
       "folder": "head",
       "items": ["Sharp", "Round", "Curved", "Square", "Heart"],
       "colorMode": "fill",
+      "colorGroup": "skin",
+
       "colors": [
         "fdf2ec",
         "ffefe2",
@@ -328,6 +333,7 @@
       "folder": "hair bangs",
       "items": ["Bangs 1", "Bangs 2", "Bangs 3"],
       "colorMode": "fill",
+      "colorGroup": "hair",
       "colors": [
         "f6f0e0",
         "fbeac5",
@@ -367,6 +373,7 @@
       "folder": "nose",
       "items": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
       "colorMode": "fill",
+
       "colors": ["000000"],
       "noneAllowed": false
     },
