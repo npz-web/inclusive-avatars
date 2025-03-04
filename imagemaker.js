@@ -169,7 +169,7 @@ window.addEventListener(
         let itemIndex = Math.floor(Math.random() * itemRange);
         let colorRange = parts[i].colors.length;
         let colorIndex = Math.floor(Math.random() * colorRange);
-        selectedColors[i] = colorIndex;
+        setColorQuietly(i, colorIndex);
         if (noneCount > 0 && itemIndex === 0) {
           selectedItemIndex[i] = null;
         } else {
