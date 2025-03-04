@@ -2,6 +2,7 @@ window.addEventListener(
   "load",
   function (ev) {
     let parts = [];
+    let colorGroups;
     // code below this line controls functionality
     // dw about if you're just editing visual assets
 
@@ -69,6 +70,7 @@ window.addEventListener(
       const response = await fetch("./parts.json");
       const json = await response.json();
       parts = json.parts;
+      colorGroups = json.colorGroups;
     }
 
     /**
@@ -102,21 +104,29 @@ window.addEventListener(
       return null;
     }
 
+    function partColors(partId) {
+      if (parts[partId].colorGroup) {
+        return colorGroups[parts[partId].colorGroup];
+      } else {
+        return parts[partId].colors;
+      }
+    }
+
     /**
      * Create color select DOM elements for every part's colors
      */
     function initPalette() {
       for (let i = 0; i < parts.length; i++) {
-        for (let j = 0; j < parts[i].colors.length; j++) {
+        for (let j = 0; j < partColors(i).length; j++) {
           let colorElement = document.createElement("button");
-          colorElement.style.backgroundColor = "#" + parts[i].colors[j];
+          colorElement.style.backgroundColor = "#" + partColors(i)[j];
           colorElement.addEventListener("click", function () {
             selectColor(i, j);
           });
           colorElement.id = "color_" + i.toString() + "_" + j.toString();
           colorElement.style.display = "none";
           colorElement.ariaLabel =
-            parts[i].folder.toString() + " " + ntc.name(parts[i].colors[j])[1];
+            parts[i].folder.toString() + " " + ntc.name(partColors(i)[j])[1];
           document
             .getElementById("colorpalette_list")
             .appendChild(colorElement);
@@ -149,7 +159,7 @@ window.addEventListener(
           }
         }
       }
-      if (parts[partId].colors.length === 0) {
+      if (partColors(partId).length === 0) {
         paletteButton.style.display = "none";
       } else {
         paletteButton.style.display = "inline-flex";
@@ -167,7 +177,7 @@ window.addEventListener(
         let noneCount = Number(parts[i].noneAllowed);
         let itemRange = parts[i].items.length + noneCount;
         let itemIndex = Math.floor(Math.random() * itemRange);
-        let colorRange = parts[i].colors.length;
+        let colorRange = partColors(i).length;
         let colorIndex = Math.floor(Math.random() * colorRange);
         setColorQuietly(i, colorIndex);
         if (noneCount > 0 && itemIndex === 0) {
@@ -391,7 +401,7 @@ window.addEventListener(
      */
     function updatePalette() {
       for (let i = 0; i < parts.length; i++) {
-        for (let j = 0; j < parts[i].colors.length; j++) {
+        for (let j = 0; j < partColors(i).length; j++) {
           if (i === selectedPart) {
             document.getElementById(
               "color_" + i.toString() + "_" + j.toString()
@@ -470,13 +480,13 @@ window.addEventListener(
      */
     async function imageFromIndex(partIndex, itemIndex, colorIndex) {
       let imgPath =
-        parts[partIndex].colors.length > 0
+        partColors(partIndex).length > 0
           ? assetsPath +
             parts[partIndex].folder +
             "/" +
             parts[partIndex].items[itemIndex] +
             "_" +
-            parts[partIndex].colors[colorIndex] +
+            partColors(partIndex)[colorIndex] +
             ".png"
           : assetsPath +
             parts[partIndex].folder +
