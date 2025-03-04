@@ -414,9 +414,9 @@ window.addEventListener(
     }
 
     /**
-     * Change the color of the item selected for part[partId] to part[partId].colors[colorId]
+     * Helper function to change the color of the item selected for part[partId] to part[partId].colors[colorId] without triggering a refresh
      */
-    async function selectColor(partId, colorId) {
+    async function setColorQuietly(partId, colorId) {
       selectedColors[partId] = colorId;
       // check if part is part of a color group
       if (parts[partId].colorGroup) {
@@ -430,8 +430,25 @@ window.addEventListener(
           }
         });
       }
+    }
 
+    function shouldTriggerRender(partId) {
       if (selectedItemIndex[partId] != null) {
+        return true;
+      } else {
+        if (parts[partId].colorGroup) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    /**
+     * Change the color of the item selected for part[partId] to part[partId].colors[colorId]
+     */
+    async function selectColor(partId, colorId) {
+      setColorQuietly(partId, colorId);
+      if (shouldTriggerRender(partId)) {
         await renderLayerStack();
       }
       return null;
