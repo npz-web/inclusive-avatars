@@ -131,13 +131,17 @@
         "Body-Straight",
         "Body-Straight-S",
         "Body-Straight-L",
+        "Body-Straight-T",
         "Body-Narrow",
         "Body-Narrow-S",
         "Body-Narrow-L",
+        "Body-Narrow-T",
         "Body-Wide",
         "Body-Wide-S",
-        "Body-Wide-L"
+        "Body-Wide-L",
+        "Body-Wide-T"
       ],
+
       "colorMode": "fill",
       "colorGroup": "skin",
       "noneAllowed": false
