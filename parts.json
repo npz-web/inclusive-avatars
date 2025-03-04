@@ -2,9 +2,11 @@
   "parts": [
     {
       "folder": "hair back",
+      "layerOrder": 10,
       "items": ["Back 1", "Back 2"],
       "colorMode": "fill",
       "colorGroup": "hair",
+
       "colors": [
         "f6f0e0",
         "fbeac5",
@@ -42,6 +44,8 @@
     },
     {
       "folder": "body",
+      "layerOrder": 20,
+
       "items": [
         "Body-Straight",
         "Body-Straight-S",
@@ -89,6 +93,8 @@
     },
     {
       "folder": "hair extra",
+      "layerOrder": 30,
+
       "items": ["Ponytail 1"],
       "colorMode": "fill",
       "colorGroup": "hair",
@@ -130,6 +136,8 @@
     },
     {
       "folder": "ears",
+      "layerOrder": 40,
+
       "items": ["Ears-S", "Ears-S-G", "Ears-L", "Ears-L-G"],
       "colorMode": "fill",
       "colorGroup": "skin",
@@ -168,6 +176,8 @@
     },
     {
       "folder": "piercings",
+      "layerOrder": 50,
+
       "items": [
         "S Studs B",
         "S Studs L",
@@ -199,6 +209,8 @@
     },
     {
       "folder": "head",
+      "layerOrder": 60,
+
       "items": ["Sharp", "Round", "Curved", "Square", "Heart"],
       "colorMode": "fill",
       "colorGroup": "skin",
@@ -237,6 +249,8 @@
     },
     {
       "folder": "eyes",
+      "layerOrder": 70,
+
       "items": [
         "1",
         "2",
@@ -271,6 +285,8 @@
     },
     {
       "folder": "eyebrows",
+      "layerOrder": 80,
+
       "items": [
         "Eyebrow 1 H",
         "Eyebrow 1 S",
@@ -331,6 +347,8 @@
     },
     {
       "folder": "hair bangs",
+      "layerOrder": 90,
+
       "items": ["Bangs 1", "Bangs 2", "Bangs 3"],
       "colorMode": "fill",
       "colorGroup": "hair",
@@ -371,6 +389,8 @@
     },
     {
       "folder": "nose",
+      "layerOrder": 100,
+
       "items": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
       "colorMode": "fill",
 
