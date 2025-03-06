@@ -66,65 +66,6 @@
   },
   "parts": [
     {
-      "folder": "hair back",
-      "layerOrder": 10,
-      "items": ["Back 1", "Back 2"],
-      "colorMode": "fill",
-      "colorGroup": "hair",
-      "noneAllowed": true
-    },
-    {
-      "folder": "hair extra",
-      "layerOrder": 30,
-
-      "items": ["Ponytail 1"],
-      "colorMode": "fill",
-      "colorGroup": "hair",
-
-      "colors": [
-        "f6f0e0",
-        "fbeac5",
-        "f5d5a1",
-        "e7ba79",
-        "b89f75",
-        "947251",
-        "8b6e61",
-        "66483a",
-        "422c25",
-        "2b1b13",
-        "facfbd",
-        "f8b89f",
-        "e5afcc",
-        "d662a0",
-        "a64a6f",
-        "8c56a4",
-        "644372",
-        "54adf6",
-        "547fac",
-        "3b6088",
-        "a7ef64",
-        "809f68",
-        "48672f",
-        "cb5a53",
-        "a5322b",
-        "933123",
-        "ffc75b",
-        "ffffff",
-        "9f9eb3",
-        "645e6c",
-        "171a16"
-      ],
-      "noneAllowed": true
-    },
-    {
-      "folder": "hair bangs",
-      "layerOrder": 90,
-      "items": ["Bangs 1", "Bangs 2", "Bangs 3"],
-      "colorMode": "fill",
-      "colorGroup": "hair",
-      "noneAllowed": true
-    },
-    {
       "folder": "body",
       "layerOrder": 20,
       "items": [
@@ -146,7 +87,14 @@
       "colorGroup": "skin",
       "noneAllowed": false
     },
-
+    {
+      "folder": "head",
+      "layerOrder": 60,
+      "items": ["Sharp", "Round", "Curved", "Square", "Heart"],
+      "colorMode": "fill",
+      "colorGroup": "skin",
+      "noneAllowed": false
+    },
     {
       "folder": "ears",
       "layerOrder": 40,
@@ -154,46 +102,6 @@
       "colorMode": "fill",
       "colorGroup": "skin",
 
-      "noneAllowed": false
-    },
-    {
-      "folder": "piercings",
-      "layerOrder": 50,
-      "items": [
-        "S Studs B",
-        "S Studs L",
-        "S Studs R",
-        "D Studs B",
-        "D Studs L",
-        "D Studs R",
-        "T Studs B",
-        "T Studs L",
-        "T Studs R",
-        "Helix B",
-        "Helix L",
-        "Helix R",
-        "Industrial B",
-        "Industrial L",
-        "Industrial R",
-        "S Hoops B",
-        "L Hoops B",
-        "Spikes B",
-        "Spikes L",
-        "Spikes R",
-        "Cross B",
-        "Cross L",
-        "Cross R"
-      ],
-      "colorMode": "fill",
-      "colors": ["000000", "eaaf42", "908b82"],
-      "noneAllowed": true
-    },
-    {
-      "folder": "head",
-      "layerOrder": 60,
-      "items": ["Sharp", "Round", "Curved", "Square", "Heart"],
-      "colorMode": "fill",
-      "colorGroup": "skin",
       "noneAllowed": false
     },
     {
@@ -297,7 +205,7 @@
 
     {
       "folder": "nose",
-      "layerOrder": 100,
+      "layerOrder": 110,
       "items": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
       "colorMode": "fill",
       "colors": ["000000"],
@@ -305,6 +213,7 @@
     },
     {
       "folder": "mouths",
+      "layerOrder": 90,
       "items": [
         "1",
         "1 L",
@@ -349,6 +258,67 @@
       "colorMode": "fill",
       "colors": ["000000"],
       "noneAllowed": false
+    },
+    {
+      "folder": "hair back",
+      "layerOrder": 10,
+      "items": ["Back 1", "Back 2"],
+      "colorMode": "fill",
+      "colorGroup": "hair",
+      "noneAllowed": true
+    },
+    {
+      "folder": "hair extra",
+      "layerOrder": 30,
+      "items": ["Ponytail 1"],
+      "colorMode": "fill",
+      "colorGroup": "hair",
+      "noneAllowed": true
+    },
+    {
+      "folder": "hair bangs",
+      "layerOrder": 100,
+      "items": ["Bangs 1", "Bangs 2", "Bangs 3"],
+      "colorMode": "fill",
+      "colorGroup": "hair",
+      "noneAllowed": true
+    },
+    {
+      "folder": "piercings",
+      "layerOrder": 50,
+      "items": [
+        "S Studs B",
+        "Large S Studs B",
+        "D Studs B",
+        "Large D Studs B",
+        "T Studs B",
+        "Large T Studs B",
+        "Helix B",
+        "Helix L",
+        "Helix R",
+        "Industrial B",
+        "Industrial L",
+        "Industrial R",
+        "S Hoops B",
+        "Large S Hoops B",
+        "L Hoops B",
+        "Large L Hoops B",
+        "Spikes B",
+        "Large Spikes B",
+        "Spikes L",
+        "Large Spikes L",
+        "Spikes R",
+        "Large Spikes R",
+        "Cross B",
+        "Large Cross B",
+        "Cross L",
+        "Large Cross L",
+        "Cross R",
+        "Large Cross R"
+      ],
+      "colorMode": "fill",
+      "colors": ["000000", "eaaf42", "908b82"],
+      "noneAllowed": true
     }
   ]
 }
