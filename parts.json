@@ -286,7 +286,13 @@
       "folder": "glasses",
       "layerOrder": 120,
       "items": [
-        "1"
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
       ],
       "colorMode": "fill",
       "colors": ["000000"],
