@@ -283,6 +283,16 @@
       "noneAllowed": true
     },
     {
+      "folder": "glasses",
+      "layerOrder": 120,
+      "items": [
+        "1"
+      ],
+      "colorMode": "fill",
+      "colors": ["000000"],
+      "noneAllowed": true
+    },
+    {
       "folder": "piercings",
       "layerOrder": 50,
       "items": [
