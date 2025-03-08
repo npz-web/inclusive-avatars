@@ -334,6 +334,34 @@
       "colorMode": "fill",
       "colors": ["000000", "eaaf42", "908b82"],
       "noneAllowed": true
+    },
+    {
+      "folder": "hands",
+      "layerOrder": 130,
+      "items": [
+        "L Hand", "R Hand",
+        "L Prosper", "R Prosper",
+        "L Sign", "R Sign",
+        "L Heart", "R Heart",
+        "L Gay", "R Gay",
+        "L POC", "R POC",
+        "L Inclusive", "R Inclusive",
+        "L Lesbian", "R Lesbian",
+        "L Gay Men", "R Gay Men",
+        "L Bisexual", "R Bisexual",
+        "L Pansexual", "R Pansexual",
+        "L Transgender", "R Transgender",
+        "L Nonbinary", "R Nonbinary",
+        "L Inclusive", "R Inclusive",
+        "L Agender", "R Agender",
+        "L Aromantic", "R Aromantic",
+        "L Asexual", "R Asexual",
+        "L Demisexual", "R Demisexual",
+        "L Polysexual", "R Polysexual"
+      ],
+      "colorMode": "fill",
+      "colorGroup": "skin",
+      "noneAllowed": false
     }
   ]
 }
