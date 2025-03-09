@@ -366,7 +366,7 @@
       ],
       "colorMode": "fill",
       "colorGroup": "skin",
-      "noneAllowed": false
+      "noneAllowed": true
     },
     {
       "folder": "right hands",
@@ -399,7 +399,7 @@
       ],
       "colorMode": "fill",
       "colorGroup": "skin",
-      "noneAllowed": false
+      "noneAllowed": true
     },
     {
       "folder": "background",
