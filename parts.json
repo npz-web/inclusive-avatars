@@ -336,6 +336,33 @@
       "noneAllowed": true
     },
     {
+      "folder": "clothes",
+      "layerOrder": 21,
+      "items": [
+        "Tshirt Straight",
+        "Tshirt Straight S",
+        "Tshirt Straight L",
+        "Tshirt Narrow",
+        "Tshirt Narrow S",
+        "Tshirt Narrow L",
+        "Tshirt Wide",
+        "Tshirt Wide S",
+        "Tshirt Wide L",
+        "Sweater Straight",
+        "Sweater Straight S",
+        "Sweater Straight L",
+        "Sweater Narrow",
+        "Sweater Narrow S",
+        "Sweater Narrow L",
+        "Sweater Wide",
+        "Sweater Wide S",
+        "Sweater Wide L"
+      ],
+      "colorMode": "fill",
+      "colors": ["f4be82", "ff9999", "db6b5c", "75a0de", "789c8a", "d29265", "ae6d40", "eeeeee", "4b4b4b", "282828"],
+      "noneAllowed": false
+    },
+    {
       "folder": "left hands",
       "layerOrder": 130,
       "items": [
