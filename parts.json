@@ -336,12 +336,48 @@
       "noneAllowed": true
     },
     {
-      "folder": "clothes",
+      "folder": "underclothes",
       "layerOrder": 21,
+      "items":[
+        "B1 Straight", "B1 Straight S", "B1 Straight L",
+        "B1 Narrow", "B1 Narrow S", "B1 Narrow L",
+        "B1 Wide", "B1 Wide S", "B1 Wide L",
+
+        "B2 Straight", "B2 Straight S", "B1 Straight L",
+        "B2 Narrow", "B2 Narrow S", "B2 Narrow L",
+        "B2 Wide", "B2 Wide S", "B2 Wide L",
+
+        "T1 Straight", "T1 Straight S", "T1 Straight L",
+        "T1 Narrow", "T1 Narrow S", "T1 Narrow L",
+        "T1 Wide", "T1 Wide S", "T1 Wide L",
+
+        "T2 Straight", "T2 Straight S", "T2 Straight L",
+        "T2 Narrow", "T2 Narrow S", "T2 Narrow L",
+        "T2 Wide", "T2 Wide S", "T2 Wide L"
+      ],
+      "colorMode": "fill",
+      "colors":["f4be82", "ff9999", "db6b5c", "75a0de", "789c8a", "d29265", "ae6d40", "eeeeee", "4b4b4b", "282828"],
+      "noneAllowed": true
+    },
+    {
+      "folder": "clothes",
+      "layerOrder": 22,
       "items": [
         "Tshirt Straight", "Tshirt Straight S", "Tshirt Straight L",
         "Tshirt Narrow", "Tshirt Narrow S", "Tshirt Narrow L",
         "Tshirt Wide", "Tshirt Wide S", "Tshirt Wide L",
+
+        "Tshirt 2 Straight", "Tshirt 2 Straight S", "Tshirt 2 Straight L",
+        "Tshirt 2 Narrow", "Tshirt 2 Narrow S", "Tshirt 2 Narrow L",
+        "Tshirt 2 Wide", "Tshirt 2 Wide S", "Tshirt 2 Wide L",
+
+        "Tshirt WS Straight", "Tshirt WS Straight S", "Tshirt WS Straight L",
+        "Tshirt WS Narrow", "Tshirt WS Narrow S", "Tshirt WS Narrow L",
+        "Tshirt WS Wide", "Tshirt WS Wide S", "Tshirt WS Wide L",
+
+        "Tshirt BS Straight", "Tshirt BS Straight S", "Tshirt BS Straight L",
+        "Tshirt BS Narrow", "Tshirt BS Narrow S", "Tshirt BS Narrow L",
+        "Tshirt BS Wide", "Tshirt BS Wide S", "Tshirt BS Wide L",
 
         "Sweater Straight", "Sweater Straight S", "Sweater Straight L",
         "Sweater Narrow", "Sweater Narrow S", "Sweater Narrow L",
@@ -417,7 +453,7 @@
       ],
       "colorMode": "fill",
       "colors": ["f4be82", "ff9999", "db6b5c", "75a0de", "789c8a", "d29265", "ae6d40", "eeeeee", "4b4b4b", "282828"],
-      "noneAllowed": false
+      "noneAllowed": true
     },
     {
       "folder": "left hands",
@@ -487,6 +523,38 @@
       ],
       "colorMode": "fill",
       "colorGroup": "skin",
+      "noneAllowed": true
+    },
+    {
+      "folder": "accessibility",
+      "layerOrder": 150,
+      "items": [
+        "Wheelchair",
+        "HA S", "HA L",
+        "Cane 1 L", "Cane 1 R",
+        "Cane 2 L", "Cane 2 R",
+        "Cane 3 L", "Cane 3 R",
+        "Cane 4 L", "Cane 4 R",
+        "Cane 5 L", "Cane 5 R"
+      ],
+      "colorMode": "fill",
+      "colors": ["4b4b4b", "282828", "513024", "412014"],
+      "noneAllowed": true
+    },
+    {
+      "folder": "accessibility 2",
+      "layerOrder": 151,
+      "items": [
+        "Wheelchair",
+        "HA S", "HA L",
+        "Cane 1 L", "Cane 1 R",
+        "Cane 2 L", "Cane 2 R",
+        "Cane 3 L", "Cane 3 R",
+        "Cane 4 L", "Cane 4 R",
+        "Cane 5 L", "Cane 5 R"
+      ],
+      "colorMode": "fill",
+      "colors": ["4b4b4b", "282828", "513024", "412014"],
       "noneAllowed": true
     },
     {

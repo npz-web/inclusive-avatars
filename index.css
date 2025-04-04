@@ -6,14 +6,14 @@
     /* the color of the focus ring */
     --focus-color: #0008ff;
     /* the color/image filepath of the background of the image display area */
-    --image-background-color: #f5f0f0;
+    --image-background-color: #fde4d5;
     --image-background-png: "none";
     /* the color/image filepath of the random button */
     --random-button-color: #9d05f0;
     --random-button-color-hover: --accent-hover;
     --random-button-png: "none";
     /* the color/image filepath of the items menu background*/
-    --control-panel-color: #ccc;
+    --control-panel-color: #fde4d5;
     --control-panel-png: "none";
     /* the color of the item buttons */
     --item-button-color: #fff;
