@@ -527,7 +527,7 @@
     },
     {
       "folder": "accessibility",
-      "layerOrder": 150,
+      "layerOrder": 2,
       "items": [
         "Wheelchair",
         "HA S", "HA L",
@@ -543,7 +543,7 @@
     },
     {
       "folder": "accessibility 2",
-      "layerOrder": 151,
+      "layerOrder": 3,
       "items": [
         "Wheelchair",
         "HA S", "HA L",
