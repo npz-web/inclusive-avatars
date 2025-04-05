@@ -1,6 +1,6 @@
 :root {
     /* the color of the background of the loading sign*/
-    --loading-bg-color: #FFFFFF;
+    --loading-bg-color: #f8cdb3;
     /* the color of the border around selected part and icon buttons */
     --select-color: #FF0000;
     /* the color of the focus ring */
@@ -16,12 +16,12 @@
     --control-panel-color: #fde4d5;
     --control-panel-png: "none";
     /* the color of the item buttons */
-    --item-button-color: #fff;
+    --item-button-color: #b0637a;
     /* the color/image filepath of the item menu toggle button */
-    --item-toggle-color: #fff;
+    --item-toggle-color: #eab494;
     --item-toggle-svg: url("imagemakerAssets/item_toggle.svg");
     /* the color/image filepath of the palette toggle button */
-    --palette-toggle-color: #fff;
+    --palette-toggle-color: #eab494;
     --palette-toggle-svg: url("imagemakerAssets/palette_toggle.svg");
     /* the image filepath of the logo */
     --logo-png: "none";

@@ -259,14 +259,32 @@
       "noneAllowed": false
     },
     {
+      "folder": "hair back",
+      "layerOrder": 10,
+      "items": [
+        "Back 1",
+        "Back 2",
+        "Back 3",
+        "Back 4",
+        "Back 5",
+        "Back 6",
+        "Back 7",
+        "Back 8",
+        "Back 9"
+    ],
+      "colorMode": "fill",
+      "colorGroup": "hair",
+      "noneAllowed": true
+    },
+    {
       "folder": "hair bangs",
       "layerOrder": 100,
       "items": [
+        "Bangs 4",
+        "Bangs 5",
         "Bangs 1",
         "Bangs 2",
         "Bangs 3",
-        "Bangs 4",
-        "Bangs 5",
         "Bangs 6",
         "Bangs 7",
         "Bangs 8",
@@ -283,24 +301,6 @@
         "Bangs 19",
         "Bangs 20"
       ],
-      "colorMode": "fill",
-      "colorGroup": "hair",
-      "noneAllowed": true
-    },
-    {
-      "folder": "hair back",
-      "layerOrder": 10,
-      "items": [
-        "Back 1",
-        "Back 2",
-        "Back 3",
-        "Back 4",
-        "Back 5",
-        "Back 6",
-        "Back 7",
-        "Back 8",
-        "Back 9"
-    ],
       "colorMode": "fill",
       "colorGroup": "hair",
       "noneAllowed": true
