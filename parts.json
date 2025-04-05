@@ -259,9 +259,48 @@
       "noneAllowed": false
     },
     {
+      "folder": "hair bangs",
+      "layerOrder": 100,
+      "items": [
+        "Bangs 1",
+        "Bangs 2",
+        "Bangs 3",
+        "Bangs 4",
+        "Bangs 5",
+        "Bangs 6",
+        "Bangs 7",
+        "Bangs 8",
+        "Bangs 9",
+        "Bangs 10",
+        "Bangs 11",
+        "Bangs 12",
+        "Bangs 13",
+        "Bangs 14",
+        "Bangs 15",
+        "Bangs 16",
+        "Bangs 17",
+        "Bangs 18",
+        "Bangs 19",
+        "Bangs 20"
+      ],
+      "colorMode": "fill",
+      "colorGroup": "hair",
+      "noneAllowed": true
+    },
+    {
       "folder": "hair back",
       "layerOrder": 10,
-      "items": ["Back 1", "Back 2"],
+      "items": [
+        "Back 1",
+        "Back 2",
+        "Back 3",
+        "Back 4",
+        "Back 5",
+        "Back 6",
+        "Back 7",
+        "Back 8",
+        "Back 9"
+    ],
       "colorMode": "fill",
       "colorGroup": "hair",
       "noneAllowed": true
@@ -269,15 +308,7 @@
     {
       "folder": "hair extra",
       "layerOrder": 30,
-      "items": ["Ponytail 1"],
-      "colorMode": "fill",
-      "colorGroup": "hair",
-      "noneAllowed": true
-    },
-    {
-      "folder": "hair bangs",
-      "layerOrder": 100,
-      "items": ["Bangs 1", "Bangs 2", "Bangs 3"],
+      "items": ["Ponytail 1", "Extra 2"],
       "colorMode": "fill",
       "colorGroup": "hair",
       "noneAllowed": true
