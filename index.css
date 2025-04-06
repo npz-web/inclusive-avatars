@@ -1,6 +1,6 @@
 :root {
     /* the color of the background of the loading sign*/
-    --loading-bg-color: #f8cdb3;
+    --loading-bg-color: #fff;
     /* the color of the border around selected part and icon buttons */
     --select-color: #FF0000;
     /* the color of the focus ring */
@@ -16,7 +16,7 @@
     --control-panel-color: #fde4d5;
     --control-panel-png: "none";
     /* the color of the item buttons */
-    --item-button-color: #b0637a;
+    --item-button-color: #fff;
     /* the color/image filepath of the item menu toggle button */
     --item-toggle-color: #eab494;
     --item-toggle-svg: url("imagemakerAssets/item_toggle.svg");
