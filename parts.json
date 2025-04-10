@@ -280,21 +280,21 @@
         "Bangs 4",
         "Bangs 5",
         "Bangs 1",
-        "Bangs 2",
-        "Bangs 3",
-        "Bangs 6",
+        "Bangs 2", "Bangs 2 F",
+        "Bangs 3", "Bangs 3 F",
+        "Bangs 6", "Bangs 6 F",
         "Bangs 7",
         "Bangs 8",
         "Bangs 9",
         "Bangs 10",
-        "Bangs 11",
-        "Bangs 12",
-        "Bangs 13",
-        "Bangs 14",
-        "Bangs 15",
+        "Bangs 11", "Bangs 11 F",
+        "Bangs 12", "Bangs 12 F",
+        "Bangs 13", "Bangs 13 F",
+        "Bangs 14", "Bangs 14 F",
+        "Bangs 15", "Bangs 15 F",
         "Bangs 16",
         "Bangs 17",
-        "Bangs 18",
+        "Bangs 18", "Bangs 18 F",
         "Bangs 19",
         "Bangs 20"
       ],
@@ -305,7 +305,7 @@
     {
       "folder": "hair extra",
       "layerOrder": 30,
-      "items": ["Ponytail 1", "Extra 2"],
+      "items": ["Ponytail 1", "Ponytail 1 F", "Extra 2"],
       "colorMode": "fill",
       "colorGroup": "hair",
       "noneAllowed": true
@@ -397,7 +397,7 @@
         "B1 Narrow", "B1 Narrow S", "B1 Narrow L",
         "B1 Wide", "B1 Wide S", "B1 Wide L",
 
-        "B2 Straight", "B2 Straight S", "B1 Straight L",
+        "B2 Straight", "B2 Straight S", "B2 Straight L",
         "B2 Narrow", "B2 Narrow S", "B2 Narrow L",
         "B2 Wide", "B2 Wide S", "B2 Wide L",
 
@@ -410,7 +410,7 @@
         "T2 Wide", "T2 Wide S", "T2 Wide L"
       ],
       "colorMode": "fill",
-      "colors":["f4be82", "ff9999", "db6b5c", "75a0de", "789c8a", "d29265", "ae6d40", "eeeeee", "4b4b4b", "282828"],
+      "colors":["f8ca98", "eab274", "d49f64", "ffadad", "ff9999", "e67f7f", "bd6b5c", "b64f41", "8db6f1", "75a0de", "5e8ac9", "93c5ac", "789c8a", "597d6b", "8c7cbe", "675897", "4b3f70", "d29265", "ae6d40", "7e5335", "73482a", "eeeeee", "4b4b4b", "282828"],
       "noneAllowed": true
     },
     {
@@ -506,7 +506,7 @@
         "DG MTie Wide", "DG MTie Wide S", "DG MTie Wide L"
       ],
       "colorMode": "fill",
-      "colors": ["f4be82", "ff9999", "db6b5c", "75a0de", "789c8a", "d29265", "ae6d40", "eeeeee", "4b4b4b", "282828"],
+      "colors": ["f8ca98", "eab274", "d49f64", "ffadad", "ff9999", "e67f7f", "bd6b5c", "b64f41", "8db6f1", "75a0de", "5e8ac9", "93c5ac", "789c8a", "597d6b", "8c7cbe", "675897", "4b3f70", "d29265", "ae6d40", "7e5335", "73482a", "eeeeee", "4b4b4b", "282828"],
       "noneAllowed": true
     },
     {
@@ -514,7 +514,7 @@
       "layerOrder": 122,
       "items": ["Headscarf 1", "Headscarf 2"],
       "colorMode": "fill",
-      "colors": ["000000"],
+      "colors": ["f8ca98", "eab274", "d49f64", "ffadad", "ff9999", "e67f7f", "bd6b5c", "b64f41", "8db6f1", "75a0de", "5e8ac9", "93c5ac", "789c8a", "597d6b", "8c7cbe", "675897", "4b3f70", "d29265", "ae6d40", "7e5335", "73482a", "eeeeee", "4b4b4b", "282828"],
       "noneAllowed": true
     },
     {
@@ -594,15 +594,15 @@
       "layerOrder": 2,
       "items": [
         "Wheelchair",
-        "HA S", "HA L",
-        "Cane 1 L", "Cane 1 R",
-        "Cane 2 L", "Cane 2 R",
-        "Cane 3 L", "Cane 3 R",
-        "Cane 4 L", "Cane 4 R",
-        "Cane 5 L", "Cane 5 R"
+        "HA L",
+        "Cane 1 L",
+        "Cane 2 L",
+        "Cane 3 L",
+        "Cane 4 L",
+        "Cane 5 L"
       ],
       "colorMode": "fill",
-      "colors": ["4b4b4b", "282828", "513024", "412014"],
+      "colors": ["d29265", "ae6d40", "7e5335", "73482a", "4b4b4b", "282828", "513024", "412014"],
       "noneAllowed": true
     },
     {
@@ -610,15 +610,15 @@
       "layerOrder": 3,
       "items": [
         "Wheelchair",
-        "HA S", "HA L",
-        "Cane 1 L", "Cane 1 R",
-        "Cane 2 L", "Cane 2 R",
-        "Cane 3 L", "Cane 3 R",
-        "Cane 4 L", "Cane 4 R",
-        "Cane 5 L", "Cane 5 R"
+        "HA L",
+        "Cane 1 R",
+        "Cane 2 R",
+        "Cane 3 R",
+        "Cane 4 R",
+        "Cane 5 R"
       ],
       "colorMode": "fill",
-      "colors": ["4b4b4b", "282828", "513024", "412014"],
+      "colors": ["d29265", "ae6d40", "7e5335", "73482a", "4b4b4b", "282828", "513024", "412014"],
       "noneAllowed": true
     },
     {
@@ -630,14 +630,37 @@
         "grey 2",
         "grey 3",
         "grey 4",
+        "tan 1",
+        "tan 2",
+        "tan 3",
+        "tan 4",
+        "tan 5",
+        "pastel red",
+        "pastel orange",
+        "pastel yellow 2",
+        "pastel yellow",
+        "pastel green",
+        "pastel light blue",
+        "pastel dark blue",
+        "pastel purple",
         "red",
         "orange",
+        "yellow 2",
         "yellow",
         "green",
         "teal",
         "light blue",
         "blue",
         "purple",
+        "dark red",
+        "dark orange",
+        "dark yellow 2",
+        "dark yellow",
+        "dark green",
+        "dark teal",
+        "dark light blue",
+        "dark dark blue",
+        "dark purple",
         "space"
       ],
       "colorMode": "fill",
