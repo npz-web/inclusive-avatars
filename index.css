@@ -57,8 +57,9 @@ body {
     height: 90vh;
     display: flex;
     flex-direction: column;
-    font-family: "Aclonica", sans-serif;
-    font-weight: 400;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
     font-style: normal;
 }
 
