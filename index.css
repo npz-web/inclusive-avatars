@@ -431,8 +431,7 @@ aside {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    height: 100%;
-    min-height: 100px;
+    max-height: 413px;
     background-color: var(--control-panel-color, #ccc);
     background-image: var(--control-panel-png, "none");
     background-repeat: no-repeat;
