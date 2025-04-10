@@ -392,7 +392,6 @@ aside {
     padding: 0;
     position: relative;
     list-style: "none";
-    padding: 0 !important;
 }
 
 .imagemaker_parts_menu nav button{
@@ -403,6 +402,7 @@ aside {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    padding: 0 !important;
 }
 
 .imagemaker_random_button {
