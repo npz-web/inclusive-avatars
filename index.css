@@ -424,6 +424,7 @@ aside {
     flex: 1;
     overflow: hidden;
     flex-grow: 1;
+    background-color: var(--control-panel-color);
 }
 
 .imagemaker_control_panel {
