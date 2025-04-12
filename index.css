@@ -1,6 +1,7 @@
-:root {
+:root,
+::backdrop {
+
    /* Default light theme */
-   
     --bg: #f8cdb3;
     --accent-bg: #eab494;
     /* the color of the background of the loading sign*/
@@ -36,14 +37,17 @@
     --footer: #eab494;
     --border: #b0637a;
 
+    --accent-hover: #7ec1ff;
+
+    
     --item-button-size: 88px;
 
+}
 
-
-    /** SIMPLE CSS VARIABLE OVERRIDES **/
-    --accent-hover:  #7ec1ff;
-
+    /* Dark theme */
     @media (prefers-color-scheme: dark) {
+        :root,
+        ::backdrop {
          --accent-hover: #7ec1ff;
          --bg: #8e3a5a;
          --accent-bg: #541f2f;
