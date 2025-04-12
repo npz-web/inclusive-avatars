@@ -1,15 +1,17 @@
 :root {
+    --bg: #f8cdb3;
+    --accent-bg: #eab494;
     /* the color of the background of the loading sign*/
     --loading-bg-color: #fff;
     /* the color of the border around selected part and icon buttons */
-    --select-color: #FF0000;
+    --select-color: #b0637a;
     /* the color of the focus ring */
     --focus-color: #0008ff;
     /* the color/image filepath of the background of the image display area */
     --image-background-color: #fde4d5;
     --image-background-png: "none";
     /* the color/image filepath of the random button */
-    --random-button-color: #9d05f0;
+    --random-button-color: #a95d74;
     --random-button-color-hover: --accent-hover;
     --random-button-png: "none";
     /* the color/image filepath of the items menu background*/
@@ -25,7 +27,11 @@
     --palette-toggle-svg: url("imagemakerAssets/palette_toggle.svg");
     /* the image filepath of the logo */
     --logo-png: "none";
-    --save-button-color: #008a2e;
+    --save-button-color: #79aa58;
+    --accent: #eab494;
+    --text: #a95e74;
+    --text-light: #a95e74;
+    --footer: #eab494;
 
     --item-button-size: 88px;
 
@@ -73,6 +79,10 @@ aside {
     width: auto;
     margin-inline-start: 0;
     padding: 0px;
+}
+
+footer {
+    color: var(--footer);
 }
 
 .sr-only {
