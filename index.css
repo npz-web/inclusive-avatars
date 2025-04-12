@@ -1,4 +1,6 @@
 :root {
+   /* Default light theme */
+   
     --bg: #f8cdb3;
     --accent-bg: #eab494;
     /* the color of the background of the loading sign*/
@@ -32,6 +34,7 @@
     --text: #a95e74;
     --text-light: #a95e74;
     --footer: #eab494;
+    --border: #b0637a;
 
     --item-button-size: 88px;
 
@@ -42,6 +45,17 @@
 
     @media (prefers-color-scheme: dark) {
          --accent-hover: #7ec1ff;
+         --bg: #8e3a5a;
+         --accent-bg: #541f2f;
+         --control-panel-color: #b0637a;
+         --text: #eab494;
+         --text-light: #eab494;
+         --image-background-color: #b0637a;
+         --item-toggle-color: #541f2f;
+         --palette-toggle-color: #541f2f;
+         --select-color: #7b2f46;
+         --accent: #541f2f;
+         --border: #1e1e1e;
     }
 
 }
@@ -67,6 +81,10 @@ body {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+}
+
+h1 {
+    padding-top: 20px;
 }
 
 section {
