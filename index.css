@@ -60,6 +60,8 @@
          --select-color: #7b2f46;
          --accent: #541f2f;
          --border: #1e1e1e;
+         --nav-menu: #541f2f;
+         --footer: #541f2f;
     }
 
 }
@@ -127,6 +129,7 @@ footer {
 
 .imagemaker_parts_menu nav {
     display: flex;
+    color: var(--nav-menu);
 }
 
 @media (orientation: landscape) {
