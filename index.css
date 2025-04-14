@@ -79,6 +79,10 @@ a:focus-visible {
     outline: 3px solid var(--focus-color);
 }
 
+header {
+    padding-bottom: 10px;
+}
+
 body {
     height: 90vh;
     display: flex;
@@ -106,6 +110,7 @@ aside {
 }
 
 footer {
+    margin-top: 20px;
     color: var(--footer);
 }
 
