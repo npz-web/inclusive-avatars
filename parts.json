@@ -103,6 +103,16 @@
       "noneAllowed": false
     },
     {
+      "folder": "hearing aids",
+      "layerOrder": 41,
+      "items": [
+        "HA L"
+      ],
+      "colorMode": "fill",
+      "colors": ["d29265", "ae6d40", "7e5335", "73482a", "4b4b4b", "282828", "513024", "412014"],
+      "noneAllowed": true
+    },
+    {
       "folder": "eyes",
       "layerOrder": 70,
       "items": [
@@ -592,7 +602,6 @@
       "layerOrder": 2,
       "items": [
         "Wheelchair",
-        "HA L",
         "Cane 1 L",
         "Cane 2 L",
         "Cane 3 L",
@@ -608,7 +617,6 @@
       "layerOrder": 3,
       "items": [
         "Wheelchair",
-        "HA L",
         "Cane 1 R",
         "Cane 2 R",
         "Cane 3 R",
