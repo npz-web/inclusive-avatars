@@ -249,7 +249,7 @@
     },
     {
       "folder": "hair bangs",
-      "layerOrder": 121,
+      "layerOrder": 119,
       "items": [
         "Bangs 4",
         "Bangs 5",
@@ -384,7 +384,31 @@
         "T2 Wide", "T2 Wide S", "T2 Wide L"
       ],
       "colorMode": "fill",
-      "colors":["f8ca98", "eab274", "d49f64", "ffadad", "ff9999", "e67f7f", "bd6b5c", "b64f41", "8db6f1", "75a0de", "5e8ac9", "93c5ac", "789c8a", "597d6b", "8c7cbe", "675897", "4b3f70", "d29265", "ae6d40", "7e5335", "73482a", "eeeeee", "4b4b4b", "282828"],
+      "colors":["f8ca98",
+                "eab274",
+                "d49f64",
+                "ffadad",
+                "ff9999",
+                "e67f7f",
+                "bd6b5c",
+                "b64f41",
+                "8db6f1",
+                "75a0de",
+                "5e8ac9",
+                "93c5ac",
+                "789c8a",
+                "597d6b",
+                "8c7cbe",
+                "675897",
+                "4b3f70",
+                "d29265",
+                "ae6d40",
+                "7e5335",
+                "73482a",
+                "eeeeee",
+                "4b4b4b",
+                "282828"
+              ],
       "noneAllowed": true
     },
     {
